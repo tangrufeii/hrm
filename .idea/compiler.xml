@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hrm-eureka-server-1010" />
+        <module name="hrm-create-code" />
+        <module name="hrm-file-feign" />
+        <module name="hrm-file-server-1060" />
+        <module name="hrm-basic-common" />
+        <module name="hrm-auth-server-1050" />
+        <module name="hrm-user-common" />
+        <module name="hrm-course-common" />
+        <module name="hrm-course-server-1070" />
+        <module name="hrm-feign-interceptor" />
+        <module name="hrm-system-server-1040" />
+        <module name="hrm-config-server-1030" />
+        <module name="hrm-auth-common" />
+        <module name="hrm-system-common" />
+        <module name="hrm-system-feign" />
+        <module name="hrm-es-feign" />
+        <module name="hrm-common-dependencies" />
+        <module name="hrm-message-server-1090" />
+        <module name="hrm-es-server-1080" />
+        <module name="hrm-zuul-server-1020" />
+        <module name="hrm-user-server-1100" />
+        <module name="hrm-es-common" />
+        <module name="hrm-auth-feign" />
+        <module name="hrm-basic-redis" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hrm-auth-common" options="-parameters" />
+      <module name="hrm-auth-feign" options="-parameters" />
+      <module name="hrm-auth-parent" options="-parameters" />
+      <module name="hrm-auth-server-1050" options="-parameters" />
+      <module name="hrm-basic-common" options="-parameters" />
+      <module name="hrm-basic-parent" options="-parameters" />
+      <module name="hrm-basic-redis" options="-parameters" />
+      <module name="hrm-common-dependencies" options="-parameters" />
+      <module name="hrm-config-server-1030" options="-parameters" />
+      <module name="hrm-course-common" options="-parameters" />
+      <module name="hrm-course-parent" options="-parameters" />
+      <module name="hrm-course-server-1070" options="-parameters" />
+      <module name="hrm-create-code" options="-parameters" />
+      <module name="hrm-es-common" options="-parameters" />
+      <module name="hrm-es-feign" options="-parameters" />
+      <module name="hrm-es-server-1080" options="-parameters" />
+      <module name="hrm-eureka-server-1010" options="-parameters" />
+      <module name="hrm-feign-interceptor" options="-parameters" />
+      <module name="hrm-file-feign" options="-parameters" />
+      <module name="hrm-file-parent" options="-parameters" />
+      <module name="hrm-file-server-1060" options="-parameters" />
+      <module name="hrm-message-parent" options="-parameters" />
+      <module name="hrm-message-server-1090" options="-parameters" />
+      <module name="hrm-search-parent" options="-parameters" />
+      <module name="hrm-support-parent" options="-parameters" />
+      <module name="hrm-system-common" options="-parameters" />
+      <module name="hrm-system-feign" options="-parameters" />
+      <module name="hrm-system-parent" options="-parameters" />
+      <module name="hrm-system-server-1040" options="-parameters" />
+      <module name="hrm-user-common" options="-parameters" />
+      <module name="hrm-user-parent" options="-parameters" />
+      <module name="hrm-user-server-1100" options="-parameters" />
+      <module name="hrm-zuul-server-1020" options="-parameters" />
+    </option>
+  </component>
+</project>

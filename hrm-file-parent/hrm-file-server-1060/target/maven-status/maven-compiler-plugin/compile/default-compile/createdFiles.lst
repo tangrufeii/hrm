@@ -1,0 +1,6 @@
+cn\itsource\controller\FileController.class
+cn\itsource\entity\OssPropertites.class
+cn\itsource\FileApp1060.class
+cn\itsource\entity\UploadVO.class
+cn\itsource\service\FileService.class
+cn\itsource\service\impl\FileServiceImpl.class

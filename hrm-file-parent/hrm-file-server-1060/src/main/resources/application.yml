@@ -1,0 +1,20 @@
+server:
+  port: 1060
+eureka:
+  client:
+    serviceUrl: #指向Eureka服务端地址
+      defaultZone: http://localhost:1010/eureka/
+    registry-fetch-interval-seconds: 2 #服务发现的间隔时间
+  instance:
+    prefer-ip-address: true #开启用IP注册
+    instance-id: service-file:1060 #自定义实例ID
+spring:
+  application:
+    name: service-file #服务名
+
+file:
+  alicloud:
+    bucket-name: java0420 #上传空间bucket
+    access-key: LTAI5t6yyzr1cTZHpFR4wMrv #你的key
+    secret-key: vyHnzbkSwcH2EOT7DuXh4c8mX1bJcw #你的秘钥
+    endpoint: oss-cn-chengdu.aliyuncs.com  #地域节点

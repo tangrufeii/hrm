@@ -1,0 +1,16 @@
+server:
+  port: 1090
+
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtualHost: /
+    listener:
+      simple:
+        acknowledge-mode: manual #手动签收
+        prefetch: 1
+  application:
+    name: service-message #服务名

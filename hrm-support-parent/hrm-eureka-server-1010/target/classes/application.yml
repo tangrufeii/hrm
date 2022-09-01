@@ -1,0 +1,16 @@
+server:
+  port: 1010
+spring:
+  application:
+    name: service-eureka
+eureka:
+  instance:
+    hostname: localhost #主机IP
+  client: #客户端配置
+    registerWithEureka: false  #EurekaServer自己不要注册到EurekaServer自己 ，只有EurekaClient才注册
+    fetchRegistry: false  #EurekaServer不要拉取服务的通信地址列表 ，只有EurekaClient才拉取地址列表
+    serviceUrl:  #注册中心的注册地址
+      defaultZone: http://localhost:1010/eureka/
+  server:
+    enable-self-preservation: false #关闭自我保护
+    eviction-interval-timer-in-ms: 2000 #定时检查实例间隔时间

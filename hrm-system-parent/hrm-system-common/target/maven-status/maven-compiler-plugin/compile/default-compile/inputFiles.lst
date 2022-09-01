@@ -1,0 +1,17 @@
+D:\code3\hrm\hrm-parent\hrm-system-parent\hrm-system-common\src\main\java\cn\itsource\domain\Department.java
+D:\code3\hrm\hrm-parent\hrm-system-parent\hrm-system-common\src\main\java\cn\itsource\domain\Tenant.java
+D:\code3\hrm\hrm-parent\hrm-system-parent\hrm-system-common\src\main\java\cn\itsource\domain\Employee.java
+D:\code3\hrm\hrm-parent\hrm-system-parent\hrm-system-common\src\main\java\cn\itsource\domain\TenantType.java
+D:\code3\hrm\hrm-parent\hrm-system-parent\hrm-system-common\src\main\java\cn\itsource\query\DepartmentQuery.java
+D:\code3\hrm\hrm-parent\hrm-system-parent\hrm-system-common\src\main\java\cn\itsource\query\SystemdictionarydetailQuery.java
+D:\code3\hrm\hrm-parent\hrm-system-parent\hrm-system-common\src\main\java\cn\itsource\domain\Config.java
+D:\code3\hrm\hrm-parent\hrm-system-parent\hrm-system-common\src\main\java\cn\itsource\query\TenantTypeQuery.java
+D:\code3\hrm\hrm-parent\hrm-system-parent\hrm-system-common\src\main\java\cn\itsource\query\EmployeeQuery.java
+D:\code3\hrm\hrm-parent\hrm-system-parent\hrm-system-common\src\main\java\cn\itsource\domain\OperationLog.java
+D:\code3\hrm\hrm-parent\hrm-system-parent\hrm-system-common\src\main\java\cn\itsource\domain\Systemdictionarydetail.java
+D:\code3\hrm\hrm-parent\hrm-system-parent\hrm-system-common\src\main\java\cn\itsource\query\OperationLogQuery.java
+D:\code3\hrm\hrm-parent\hrm-system-parent\hrm-system-common\src\main\java\cn\itsource\query\ConfigQuery.java
+D:\code3\hrm\hrm-parent\hrm-system-parent\hrm-system-common\src\main\java\cn\itsource\domain\Systemdictionarytype.java
+D:\code3\hrm\hrm-parent\hrm-system-parent\hrm-system-common\src\main\java\cn\itsource\query\SystemdictionarytypeQuery.java
+D:\code3\hrm\hrm-parent\hrm-system-parent\hrm-system-common\src\main\java\cn\itsource\query\TenantQuery.java
+D:\code3\hrm\hrm-parent\hrm-system-parent\hrm-system-common\src\main\java\cn\itsource\dto\RegisterDto.java

@@ -1,0 +1,29 @@
+server:
+  port: 1020
+eureka:
+  client:
+    serviceUrl: #指向Eureka服务端地址
+      defaultZone: http://localhost:1010/eureka/
+    registry-fetch-interval-seconds: 2 #服务发现的间隔时间
+  instance:
+    prefer-ip-address: true #开启用IP注册
+    instance-id: service-zuul:1020 #自定义实例ID
+
+spring:
+  application:
+    name: service-zuul #服务名
+
+#将敏感头信息置空，这样就不会将头信息里的token丢失了
+
+
+zuul:
+  ignoredServices: "*"  #禁用掉使用浏览器通过服务名的方式访问服务
+  prefix: "/hrm"  #统一访问前缀
+  routes:
+    service-system: "/system/**"
+    service-auth: "/auth/**"
+    service-file: "/file/**"
+    service-course: "/course/**"
+    service-es: "/es/**"
+    service-user: "/user/**"
+  sensitive-headers:

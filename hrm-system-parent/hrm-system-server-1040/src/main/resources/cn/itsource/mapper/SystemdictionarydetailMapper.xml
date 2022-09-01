@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itsource.mapper.SystemdictionarydetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.itsource.domain.Systemdictionarydetail">
+        <id column="id" property="id" />
+        <result column="type_id" property="typeId" />
+        <result column="dic_key" property="dicKey" />
+        <result column="dic_value" property="dicValue" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, type_id AS typeId, dic_key AS dicKey, dic_value AS dicValue
+    </sql>
+
+    <select id="listBySn" resultType="cn.itsource.domain.Systemdictionarydetail">
+        select t1.dic_key, t1.dic_value from t_systemdictionarydetail t1
+        left join t_systemdictionarytype t2 on t1.type_id = t2.id
+        where t2.sn = #{type}
+    </select>
+
+</mapper>

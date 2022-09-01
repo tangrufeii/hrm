@@ -1,0 +1,15 @@
+D:\code3\hrm\hrm-parent\hrm-auth-parent\hrm-auth-common\src\main\java\cn\itsource\query\MealQuery.java
+D:\code3\hrm\hrm-parent\hrm-auth-parent\hrm-auth-common\src\main\java\cn\itsource\query\RoleQuery.java
+D:\code3\hrm\hrm-parent\hrm-auth-parent\hrm-auth-common\src\main\java\cn\itsource\domain\Meal.java
+D:\code3\hrm\hrm-parent\hrm-auth-parent\hrm-auth-common\src\main\java\cn\itsource\dto\LoginMealDto.java
+D:\code3\hrm\hrm-parent\hrm-auth-parent\hrm-auth-common\src\main\java\cn\itsource\query\LoginQuery.java
+D:\code3\hrm\hrm-parent\hrm-auth-parent\hrm-auth-common\src\main\java\cn\itsource\domain\Login.java
+D:\code3\hrm\hrm-parent\hrm-auth-parent\hrm-auth-common\src\main\java\cn\itsource\tools\AuthTools.java
+D:\code3\hrm\hrm-parent\hrm-auth-parent\hrm-auth-common\src\main\java\cn\itsource\domain\Role.java
+D:\code3\hrm\hrm-parent\hrm-auth-parent\hrm-auth-common\src\main\java\cn\itsource\query\PostitionQuery.java
+D:\code3\hrm\hrm-parent\hrm-auth-parent\hrm-auth-common\src\main\java\cn\itsource\dto\AccessTokenDto.java
+D:\code3\hrm\hrm-parent\hrm-auth-parent\hrm-auth-common\src\main\java\cn\itsource\query\MenuQuery.java
+D:\code3\hrm\hrm-parent\hrm-auth-parent\hrm-auth-common\src\main\java\cn\itsource\domain\Menu.java
+D:\code3\hrm\hrm-parent\hrm-auth-parent\hrm-auth-common\src\main\java\cn\itsource\domain\Permission.java
+D:\code3\hrm\hrm-parent\hrm-auth-parent\hrm-auth-common\src\main\java\cn\itsource\domain\Postition.java
+D:\code3\hrm\hrm-parent\hrm-auth-parent\hrm-auth-common\src\main\java\cn\itsource\query\PermissionQuery.java

@@ -1,0 +1,3 @@
+cn\itsource\hrm\feign\TokenInterceptor.class
+cn\itsource\hrm\hystrix\strategy\FeignHystrixConcurrencyStrategy$WrappedCallable.class
+cn\itsource\hrm\hystrix\strategy\FeignHystrixConcurrencyStrategy.class

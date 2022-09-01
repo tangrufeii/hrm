@@ -1,0 +1,52 @@
+server:
+  port: 1070
+eureka:
+  client:
+    serviceUrl: #指向Eureka服务端地址
+      defaultZone: http://localhost:1010/eureka/
+    registry-fetch-interval-seconds: 2 #服务发现的间隔时间
+  instance:
+    prefer-ip-address: true #开启用IP注册
+    instance-id: service-course:1070 #自定义实例ID
+
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtualHost: /
+    listener:
+      simple:
+        acknowledge-mode: manual #手动签收
+        prefetch: 1
+    publisher-confirms: true #消息发送到交换机后的回调
+    publisher-returns: true  #消息由交换机发到队列失败后的回调
+    template:
+      mandatory: true # 必须设置成true 消息路由失败通知监听者，而不是将消息丢弃
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    jedis:
+      pool:
+        max-wait: 2000ms
+        min-idle: 2
+        max-idle: 8
+    password: 123456
+  #配置数据库链接信息
+  datasource:
+    url: jdbc:mysql:///hrm-course
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  application:
+    name: service-course #服务名
+
+mybatis-plus: #集成MyBatis-Plus
+  mapper-locations: classpath:cn/itsource/mapper/*Mapper.xml
+
+feign:
+  hystrix:
+    enabled: true

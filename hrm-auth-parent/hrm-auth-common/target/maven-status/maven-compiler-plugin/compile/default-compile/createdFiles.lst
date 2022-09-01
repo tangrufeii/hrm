@@ -1,0 +1,15 @@
+cn\itsource\query\MenuQuery.class
+cn\itsource\query\MealQuery.class
+cn\itsource\query\PostitionQuery.class
+cn\itsource\query\PermissionQuery.class
+cn\itsource\tools\AuthTools.class
+cn\itsource\dto\LoginMealDto.class
+cn\itsource\domain\Meal.class
+cn\itsource\domain\Postition.class
+cn\itsource\domain\Permission.class
+cn\itsource\domain\Menu.class
+cn\itsource\query\RoleQuery.class
+cn\itsource\query\LoginQuery.class
+cn\itsource\domain\Login.class
+cn\itsource\domain\Role.class
+cn\itsource\dto\AccessTokenDto.class

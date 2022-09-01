@@ -1,0 +1,18 @@
+server:
+  port: 1080
+eureka:
+  client:
+    serviceUrl: #指向Eureka服务端地址
+      defaultZone: http://localhost:1010/eureka/
+    registry-fetch-interval-seconds: 2 #服务发现的间隔时间
+  instance:
+    prefer-ip-address: true #开启用IP注册
+    instance-id: service-es:1080 #自定义实例ID
+
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch #集群名称
+      cluster-nodes: 127.0.0.1:9300 #9200是图形界面端,9300代码你的端口
+  application:
+    name: service-es #服务名

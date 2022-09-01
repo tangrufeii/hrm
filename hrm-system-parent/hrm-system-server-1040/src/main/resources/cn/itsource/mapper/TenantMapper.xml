@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itsource.mapper.TenantMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.itsource.domain.Tenant">
+        <id column="id" property="id" />
+        <result column="tenant_type_id" property="tenantTypeId" />
+        <result column="company_name" property="companyName" />
+        <result column="company_num" property="companyNum" />
+        <result column="register_time" property="registerTime" />
+        <result column="state" property="state" />
+        <result column="address" property="address" />
+        <result column="logo" property="logo" />
+        <result column="admin_id" property="adminId" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, tenant_type_id AS tenantTypeId, company_name AS companyName, company_num AS companyNum, register_time AS registerTime, state, address, logo, admin_id AS adminId
+    </sql>
+
+    <select id="getTenantByLoginId" resultType="cn.itsource.domain.Tenant">
+        select t2.id, t2.company_name from t_employee t1
+        left join t_tenant t2 on t1.tenant_id = t2.id
+        where t1.login_id = #{id}
+    </select>
+
+</mapper>

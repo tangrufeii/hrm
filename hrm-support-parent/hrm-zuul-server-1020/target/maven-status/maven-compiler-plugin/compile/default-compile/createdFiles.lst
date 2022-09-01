@@ -1,0 +1,4 @@
+cn\itsource\config\GlobalCorsConfig.class
+cn\itsource\config\SwaggerConfig.class
+cn\itsource\config\DocumentationConfig.class
+cn\itsource\ZuulApp1020.class

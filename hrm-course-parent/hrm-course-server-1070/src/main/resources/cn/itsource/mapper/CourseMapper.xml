@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itsource.mapper.CourseMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.itsource.domain.Course">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="for_user" property="forUser" />
+        <result column="course_type_id" property="courseTypeId" />
+        <result column="grade_name" property="gradeName" />
+        <result column="grade_id" property="gradeId" />
+        <result column="status" property="status" />
+        <result column="tenant_id" property="tenantId" />
+        <result column="tenant_name" property="tenantName" />
+        <result column="user_id" property="userId" />
+        <result column="user_name" property="userName" />
+        <result column="start_time" property="startTime" />
+        <result column="end_time" property="endTime" />
+        <result column="pic" property="pic" />
+        <result column="sale_count" property="saleCount" />
+        <result column="view_count" property="viewCount" />
+        <result column="comment_count" property="commentCount" />
+        <result column="online_time" property="onlineTime" />
+        <result column="offline_time" property="offlineTime" />
+    </resultMap>
+
+    <resultMap id="ResultMap" type="cn.itsource.dto.CourseAddDto">
+        <!--Course对象映射-->
+        <association property="course" javaType="cn.itsource.domain.Course">
+            <id column="id" property="id" />
+            <result column="name" property="name" />
+            <result column="for_user" property="forUser" />
+            <result column="course_type_id" property="courseTypeId" />
+            <result column="grade_name" property="gradeName" />
+            <result column="grade_id" property="gradeId" />
+            <result column="status" property="status" />
+            <result column="tenant_id" property="tenantId" />
+            <result column="tenant_name" property="tenantName" />
+            <result column="user_id" property="userId" />
+            <result column="user_name" property="userName" />
+            <result column="start_time" property="startTime" />
+            <result column="end_time" property="endTime" />
+            <result column="pic" property="pic" />
+            <result column="sale_count" property="saleCount" />
+            <result column="view_count" property="viewCount" />
+            <result column="comment_count" property="commentCount" />
+            <result column="online_time" property="onlineTime" />
+            <result column="offline_time" property="offlineTime" />
+        </association>
+
+        <!--CourseMarket对象映射-->
+        <association property="courseMarket" javaType="cn.itsource.domain.CourseMarket">
+            <id column="id" property="id" />
+            <result column="charge" property="charge" />
+            <result column="expires" property="expires" />
+            <result column="qq" property="qq" />
+            <result column="price" property="price" />
+            <result column="price_old" property="priceOld" />
+        </association>
+
+        <!--CourseDetail对象映射-->
+        <association property="courseDetail" javaType="cn.itsource.domain.CourseDetail">
+            <id column="id" property="id" />
+            <result column="description" property="description" />
+            <result column="intro" property="intro" />
+        </association>
+    </resultMap>
+    
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, name, for_user AS forUser, course_type_id AS courseTypeId, grade_name AS gradeName, grade_id AS gradeId, status, tenant_id AS tenantId, tenant_name AS tenantName, user_id AS userId, user_name AS userName, start_time AS startTime, end_time AS endTime, pic, sale_count AS saleCount, view_count AS viewCount, comment_count AS commentCount, online_time AS onlineTime, offline_time AS offlineTime
+    </sql>
+
+    <select id="selectMyPage" resultMap="ResultMap">
+        select t1.*, t2.*, t3.* from t_course t1
+             left join t_course_detail t2 on t1.id = t2.id
+             left join t_course_market t3 on t1.id = t3.id
+        order by t1.id desc
+    </select>
+
+
+</mapper>

@@ -1,0 +1,8 @@
+cn\itsource\EsApp1080.class
+cn\itsource\config\oauth\MyResourceServerConfig.class
+cn\itsource\mapper\HighlightResultMapper.class
+cn\itsource\repo\MyElasticsearchRepository.class
+cn\itsource\controller\EsController.class
+cn\itsource\service\impl\EsServiceImpl.class
+cn\itsource\config\DateConfig.class
+cn\itsource\service\EsService.class
