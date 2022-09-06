@@ -11,8 +11,8 @@ import org.springframework.stereotype.Service;
  * 收货地址 服务实现类
  * </p>
  *
- * @author bobo
- * @since 2022-02-12
+ * @author Yazi
+ * @since 2022-08-16
  */
 @Service
 public class VipAddressServiceImpl extends ServiceImpl<VipAddressMapper, VipAddress> implements IVipAddressService {

@@ -7,9 +7,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
- * @description:
- * @auth: wujiangbo
- * @date: 2022-01-16 11:25
+ * @desc
+ * @auth: tangrufei
+ * @date: 2022-08-20
  */
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class) //排除SpringBoot默认的数据源
 @EnableEurekaClient

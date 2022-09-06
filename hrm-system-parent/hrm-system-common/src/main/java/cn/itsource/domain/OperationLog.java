@@ -13,8 +13,8 @@ import java.io.Serializable;
  * 操作日志记录
  * </p>
  *
- * @author bobo
- * @since 2022-01-16
+ * @author Yazi
+ * @since 2022-08-16
  */
 @TableName("t_operation_log")
 public class OperationLog extends Model<OperationLog> {

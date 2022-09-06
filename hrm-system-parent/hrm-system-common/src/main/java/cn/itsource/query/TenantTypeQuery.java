@@ -3,8 +3,8 @@ package cn.itsource.query;
 
 /**
  * @desc
- * @author bobo
- * @since 2022-01-16
+ * @author tangrufei
+ * @since 2022-01-21
  */
 public class TenantTypeQuery extends BaseQuery{
 }

@@ -3,7 +3,7 @@ package cn.itsource.query;
 
 /**
  * @desc
- * @author bobo
+ * @author tangrufei
  * @since 2022-01-21
  */
 public class SystemdictionarytypeQuery extends BaseQuery{

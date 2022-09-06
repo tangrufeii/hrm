@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @description:
- * @auth: wujiangbo
- * @date: 2022-01-24 11:14
+ * @auth: tangrufei
+ * @date: 2022-08-20 10:39
  */
 @SpringBootApplication
 public class MessageApp1090 {

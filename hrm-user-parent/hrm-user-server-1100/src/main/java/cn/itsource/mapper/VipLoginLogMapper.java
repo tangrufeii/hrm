@@ -8,8 +8,8 @@ import com.baomidou.mybatisplus.mapper.BaseMapper;
  * 登录记录 Mapper 接口
  * </p>
  *
- * @author bobo
- * @since 2022-02-12
+ * @author Yazi
+ * @since 2022-08-16
  */
 public interface VipLoginLogMapper extends BaseMapper<VipLoginLog> {
 

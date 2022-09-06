@@ -13,8 +13,8 @@ import java.io.Serializable;
  * 
  * </p>
  *
- * @author bobo
- * @since 2022-01-16
+ * @author Yazi
+ * @since 2022-08-16
  */
 @TableName("t_tenant")
 public class Tenant extends Model<Tenant> {

@@ -13,8 +13,8 @@ import java.io.Serializable;
  * 会员实名资料
  * </p>
  *
- * @author bobo
- * @since 2022-02-12
+ * @author Yazi
+ * @since 2022-08-16
  */
 @TableName("t_vip_real_info")
 public class VipRealInfo extends Model<VipRealInfo> {

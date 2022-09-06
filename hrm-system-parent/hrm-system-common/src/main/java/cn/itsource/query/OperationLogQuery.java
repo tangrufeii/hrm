@@ -2,9 +2,9 @@ package cn.itsource.query;
 
 
 /**
- * @desc
- * @author bobo
- * @since 2022-01-16
+ * @description:
+ * @auth: tangrufei
+ * @date: 2022-08-20
  */
 public class OperationLogQuery extends BaseQuery{
 }

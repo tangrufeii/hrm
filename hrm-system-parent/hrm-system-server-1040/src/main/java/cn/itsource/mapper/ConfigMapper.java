@@ -8,8 +8,8 @@ import com.baomidou.mybatisplus.mapper.BaseMapper;
  * 参数配置表 Mapper 接口
  * </p>
  *
- * @author bobo
- * @since 2022-01-16
+ * @author Yazi
+ * @since 2022-08-16
  */
 public interface ConfigMapper extends BaseMapper<Config> {
 

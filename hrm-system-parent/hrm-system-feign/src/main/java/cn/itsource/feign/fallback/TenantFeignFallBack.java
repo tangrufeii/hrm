@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 
 /**
  * @description:
- * @auth: wujiangbo
- * @date: 2022-02-18 18:15
+ * @auth: tangrufei
+ * @date: 2022-08-20
  */
 @Component
 public class TenantFeignFallBack implements FallbackFactory<TenantFeign> {

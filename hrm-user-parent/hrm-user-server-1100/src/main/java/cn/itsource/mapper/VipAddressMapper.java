@@ -8,8 +8,8 @@ import com.baomidou.mybatisplus.mapper.BaseMapper;
  * 收货地址 Mapper 接口
  * </p>
  *
- * @author bobo
- * @since 2022-02-12
+ * @author Yazi
+ * @since 2022-08-16
  */
 public interface VipAddressMapper extends BaseMapper<VipAddress> {
 

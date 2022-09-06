@@ -11,8 +11,8 @@ import org.springframework.stereotype.Service;
  * 会员基本信息 服务实现类
  * </p>
  *
- * @author bobo
- * @since 2022-02-12
+ * @author Yazi
+ * @since 2022-08-16
  */
 @Service
 public class VipBaseServiceImpl extends ServiceImpl<VipBaseMapper, VipBase> implements IVipBaseService {

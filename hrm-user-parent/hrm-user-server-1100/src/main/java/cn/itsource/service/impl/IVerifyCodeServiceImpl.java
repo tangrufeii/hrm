@@ -15,8 +15,8 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @description:
- * @auth: wujiangbo
- * @date: 2022-02-12 11:37
+ * @auth: tangrufei
+ * @date: 2022-08-20
  */
 @Service
 public class IVerifyCodeServiceImpl  implements IVerifyCodeService {

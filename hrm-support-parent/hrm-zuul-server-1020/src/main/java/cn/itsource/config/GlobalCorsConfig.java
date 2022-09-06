@@ -7,9 +7,9 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
 /**
- * @description: 处理跨域请求问题
- * @auth: wujiangbo
- * @date: 2022-01-17 11:20
+ * @description:  处理跨域请求
+ * @auth: tangrufei
+ * @date: 2022-08-17 8:14
  */
 @Configuration
 public class GlobalCorsConfig {

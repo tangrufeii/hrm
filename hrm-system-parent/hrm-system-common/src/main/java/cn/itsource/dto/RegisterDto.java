@@ -6,8 +6,8 @@ import lombok.Data;
 
 /**
  * @description:
- * @auth: wujiangbo
- * @date: 2022-01-17 14:38
+ * @auth: tangrufei
+ * @date: 2022-08-21 11:10
  */
 @Data
 public class RegisterDto {

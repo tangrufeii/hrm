@@ -13,8 +13,8 @@ import java.io.Serializable;
  * 商品收藏
  * </p>
  *
- * @author bobo
- * @since 2022-02-12
+ * @author Yazi
+ * @since 2022-08-16
  */
 @TableName("t_vip_course_collect")
 public class VipCourseCollect extends Model<VipCourseCollect> {

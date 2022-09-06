@@ -3,8 +3,8 @@ package cn.itsource.query;
 
 /**
  * @desc
- * @author bobo
- * @since 2022-02-12
+ * @auth: tangrufei
+ * @date: 2022-08-20
  */
 public class VipCourseViewQuery extends BaseQuery{
 }

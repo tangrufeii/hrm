@@ -8,8 +8,8 @@ import com.baomidou.mybatisplus.service.IService;
  * 会员实名资料 服务类
  * </p>
  *
- * @author bobo
- * @since 2022-02-12
+ * @author Yazi
+ * @since 2022-08-16
  */
 public interface IVipRealInfoService extends IService<VipRealInfo> {
 

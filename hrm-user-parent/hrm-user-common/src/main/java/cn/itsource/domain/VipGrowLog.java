@@ -13,8 +13,8 @@ import java.io.Serializable;
  * 成长值记录
  * </p>
  *
- * @author bobo
- * @since 2022-02-12
+ * @author Yazi
+ * @since 2022-08-16
  */
 @TableName("t_vip_grow_log")
 public class VipGrowLog extends Model<VipGrowLog> {

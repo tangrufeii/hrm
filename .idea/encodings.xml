@@ -4,46 +4,26 @@
     <file url="file://$PROJECT_DIR$/hrm-auth-parent/hrm-auth-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-auth-parent/hrm-auth-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-auth-parent/hrm-auth-server-1050/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-auth-parent/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-auth-parent/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-basic-parent/hrm-basic-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-basic-parent/hrm-basic-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-basic-parent/hrm-common-dependencies/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-basic-parent/hrm-create-code/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-basic-parent/hrm-feign-interceptor/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-basic-parent/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-basic-parent/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-course-parent/hrm-course-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-course-parent/hrm-course-server-1070/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-course-parent/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-course-parent/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-file-parent/hrm-file-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-file-parent/hrm-file-server-1060/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-file-parent/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-file-parent/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-message-parent/hrm-message-server-1090/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-message-parent/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-message-parent/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-search-parent/hrm-es-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-search-parent/hrm-es-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-search-parent/hrm-es-server-1080/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-search-parent/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-search-parent/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-config-server-1030/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-eureka-server-1010/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-zuul-server-1020/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-support-parent/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-support-parent/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-system-parent/hrm-system-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-system-parent/hrm-system-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-system-parent/hrm-system-server-1040/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-system-parent/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-system-parent/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-user-parent/hrm-user-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-user-parent/hrm-user-server-1100/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-user-parent/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm-user-parent/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>

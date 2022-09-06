@@ -13,8 +13,8 @@ import java.io.Serializable;
  * 参数配置表
  * </p>
  *
- * @author bobo
- * @since 2022-01-16
+ * @author Yazi
+ * @since 2022-08-16
  */
 @TableName("t_config")
 public class Config extends Model<Config> {

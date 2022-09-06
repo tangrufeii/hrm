@@ -9,11 +9,10 @@ import com.baomidou.mybatisplus.plugins.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
-
 /**
  * @desc
- * @author bobo
- * @since 2022-02-12
+ * @author tangrufei
+ * @since 2022-08-19
  */
 @RestController
 @RequestMapping("/vipRealInfo")

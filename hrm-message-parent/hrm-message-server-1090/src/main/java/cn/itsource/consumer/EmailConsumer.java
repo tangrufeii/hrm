@@ -13,9 +13,9 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * @description: 监听邮件队列
- * @auth: wujiangbo
- * @date: 2022-01-24 11:19
+ * @description:
+ * @auth: tangrufei
+ * @date: 2022-08-20 10:53
  */
 @Component
 @Slf4j
